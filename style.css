@@ -57,7 +57,6 @@ nav {
 }
 /* This styles for image Transition */
 .ImageTransition {
-    display: block;
     overflow: hidden;
     display: grid;
     margin-top: 10px;
@@ -66,8 +65,6 @@ nav {
 
 .images:hover {
     transition: all 1s ease-in-out;
-    -ms-transform: scale(1.05);
-    -webkit-transform: scale(1.05);
     transform: scale(1.05);
 }
 /* Play Button Style*/
@@ -98,6 +95,7 @@ nav {
 }
 
 .Imagesdiv {
+    overflow: hidden;
     width: 364px;
     height: 484px;
 }
@@ -123,8 +121,11 @@ nav {
     padding-left: 94px;
     padding-top: 8px;
 }
-
+.Finalimages{
+    width: 653px;
+}
 .Finalimages1 {
+    width: 653px;
     margin-left: 96px;
 }
 /* Gridiv secttions are used for arranging items properly */
