@@ -67,9 +67,7 @@ nav {
 .images:hover {
     transition: all 1s ease-in-out;
     -ms-transform: scale(1.05);
-    /* IE 9 */
     -webkit-transform: scale(1.05);
-    /* Safari 3-8 */
     transform: scale(1.05);
 }
 /* Play Button Style*/
